@@ -1,3 +1,4 @@
+import 'package:class_travel_app/screens/detail_page.dart';
 import 'package:class_travel_app/screens/nav_screens/main_page.dart';
 import 'package:flutter/material.dart';
 import 'package:class_travel_app/screens/welcome_page.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const MainPage(),
+      home: const DetailPage(),
     );
   }
 }
